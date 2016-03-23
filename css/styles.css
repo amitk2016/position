@@ -1,13 +1,27 @@
- body {
-background-color: #f06d06; 
+main{
+	width:960px;
+	margin:0 auto;
+	background-color: #eee;
+	padding:10px;
+}
+.tip{
+	padding:10px;
+	padding-left:50px;
+	position: relative;
+	right: 25px;
+	margin-bottom:30px;
+}
 
+.tip i {
+	font-size:26px;
+	position: absolute;
+	top: 30px;
+	left:22px;
+}
 
+.info{background-color: green;}
+.success{background-color: gold;}
 
-
-
-
-
-
-
-
+.success i{
+	left: 29px;
 }
